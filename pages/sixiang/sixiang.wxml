@@ -1,0 +1,4 @@
+<!--pages/sixiang/sixiang.wxml-->
+<view class="v1">
+ <image src="/img/s1.png" mode=""/>
+</view>

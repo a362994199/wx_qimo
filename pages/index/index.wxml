@@ -1,0 +1,10 @@
+<swiper indicator-dots circular class="v1">
+  <swiper-item wx:for="{{cyh}}" wx:key="id">
+    <image src="{{item.img}}" mode=""/>
+  </swiper-item>
+</swiper>
+<view class="v2" wx:for="{{cyh1}}" wx:key="id">
+<view class="v21"> {{item.name}}</view>
+<view class="v22">{{item.zz}}</view>
+<view class="v23"> {{item.time}}</view>
+</view>

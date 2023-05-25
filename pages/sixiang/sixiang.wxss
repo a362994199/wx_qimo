@@ -1,0 +1,9 @@
+/* pages/sixiang/sixiang.wxss */
+.v1{
+  width: 100%;
+  height: 150px;
+}
+.v1 image{
+  width: 100%;
+  height: 100%;
+}

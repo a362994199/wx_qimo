@@ -1,0 +1,24 @@
+/* components/wode_table/wode_table.wxss */
+.t1{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  border: solid 1px #ff0;
+}
+.t1 .t11{
+  display: inline-block;
+  width: 24%;
+}
+.t1 .t12{
+  display: inline-block;
+  width: 24%;
+}
+.t1 .t13{
+  display: inline-block;
+  width: 24%;
+}
+.t1 .t14{
+  display: inline-block;
+  width: 24%;
+}
+

@@ -1,2 +1,13 @@
 <!--pages/wode/wode.wxml-->
-<text>pages/wode/wode.wxml</text>
+<view class="v1">
+<view class="v11">
+</view>
+<view class="v12">
+</view>
+<view class="v13">
+</view>
+<wode_table />
+</view>
+<view class="v2">
+  
+</view>

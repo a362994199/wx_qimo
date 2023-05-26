@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "dianzan":"../../components/dianzan/dianzan"
+  }
+}

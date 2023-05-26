@@ -1,0 +1,7 @@
+<!--components/wode_table/wode_table.wxml-->
+<view class="t1">
+  <view class="t11">收藏</view>
+  <view class="t12">订阅</view>
+  <view class="t13">历史</view>
+  <view class="t14">书架</view>
+</view>

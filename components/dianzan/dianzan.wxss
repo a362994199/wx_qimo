@@ -1,0 +1,18 @@
+/* components/dianzan/dianzan.wxss */
+.d1{
+  width: 100%;
+}
+.d1 .d12{
+  width: 40%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(236, 234, 234);
+  display:inline-block ;
+  margin: 5%;
+}
+.d1 .d12 text{
+  font-family: '宋体';
+  font-weight:600;
+}

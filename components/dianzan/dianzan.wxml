@@ -1,0 +1,9 @@
+<!--components/dianzan/dianzan.wxml-->
+<view class="d1">
+  <view class="d12">
+    <text>阅读：</text>512251
+  </view>
+  <view class="d12">
+    <text>点赞：</text>2022087
+  </view>
+</view>

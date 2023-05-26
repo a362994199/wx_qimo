@@ -1,0 +1,9 @@
+<!--pages/xq/xq.wxml-->
+<view class="v1"   wx:for="{{cyh}}" wx:key="id">
+<view class="v11"> {{item.name}}</view>
+<view class="v12">来源：{{item.zz}}</view>
+<view class="v13"> {{item.text}}</view>
+<view class="v14"> {{item.time}}</view>
+<dianzan />
+</view>
+

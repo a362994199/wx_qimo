@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "wode_table":"../../components/wode_table/wode_table"
+  }
 }

@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/sixiang/sixiang",
-    "pages/wode/wode"
+    "pages/wode/wode",
+    "pages/xq/xq"
   ],
   "window":{
     "backgroundTextStyle":"light",

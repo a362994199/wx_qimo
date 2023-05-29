@@ -1,36 +1,25 @@
-// pages/sixiang/sixiang.js
+// pages/sp/sp.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    query: {},
     cyh:[]
   },
-
-  cyhzy(){
-    this.setData({
-      isLoading: true,
-    });
-    wx.showLoading({
-      title: '数据加载中 '
-    });
+  cyhsp(){
     wx.request({
-      url: 'http://150.158.174.124/api/sp.php',
-      method: 'post',
+      url: 'http://150.158.174.124/api/sp1.php',
+      method: 'get',
+      data:{
+        type:this.data.query.id
+      },
       success: (res)=>{
          console.log(res.data);
         this.setData({
-          cyh: [...this.data.cyh, ...res.data],
+          cyh: res.data
         })
-      },
-      complete: () => {
-        // 隐藏loading
-        wx.hideLoading();
-        // 将节流阀设置为 false
-        this.setData({
-          isLoading: false,
-        });
       }
     })
   },
@@ -38,7 +27,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    this.cyhzy()
+    this.setData({
+      query: options
+    }),
+    console.log(this.data.query.id);
+    this.cyhsp()
   },
 
   /**

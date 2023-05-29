@@ -1,0 +1,19 @@
+/* pages/sp/sp.wxss */
+.v1{
+  width: 100%;
+}
+.v1 video{
+  width: 100%;
+}
+.v11{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: '宋体';
+  margin: 3%;
+}
+.v12{
+  font-size: 13px;
+  font-family: '楷体';
+  margin: 3%;
+  color: rgb(80, 60, 60);
+}

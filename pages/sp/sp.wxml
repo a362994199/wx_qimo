@@ -1,0 +1,8 @@
+<!--pages/sp/sp.wxml-->
+<view class="v1"   wx:for="{{cyh}}" wx:key="id">
+<video src="{{item.url}}"/>
+<view class="v11"> {{item.name}}</view>
+<view class="v12">来源：{{item.ly}}</view>
+<view class="v12">时间： {{item.time}}</view>
+<dianzan />
+</view>

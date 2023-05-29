@@ -2,3 +2,14 @@
 <view class="v1">
  <image src="/img/s1.png" mode=""/>
 </view>
+<navigator url="/pages/sp/sp?id={{item.id}}&name={{item.name}}" class="v2" wx:for="{{cyh}}" wx:key="id">
+
+<view class="v3">
+<view class="v21"> {{item.name}}</view>
+<view class="v22">来源：{{item.ly}}</view>
+<view class="v23"> 时间：{{item.time}}</view>
+</view>
+<view class="v4">
+  <image src="{{item.img}}" mode=""/>
+</view>
+</navigator>

@@ -5,6 +5,6 @@
 </swiper>
 <navigator url="/pages/xq/xq?id={{item.id}}&name={{item.name}}" class="v2" wx:for="{{cyh1}}" wx:key="id">
 <view class="v21"> {{item.name}}</view>
-<view class="v22">{{item.zz}}</view>
-<view class="v23"> {{item.time}}</view>
+<view class="v22">来源：{{item.zz}}</view>
+<view class="v23"> 时间：{{item.time}}</view>
 </navigator>

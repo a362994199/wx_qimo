@@ -1,6 +1,6 @@
 <swiper indicator-dots circular class="v1">
   <swiper-item wx:for="{{cyh}}" wx:key="id">
-    <image src="{{item.img}}" mode=""/>
+    <navigator url="/pages/lb/lb?id={{item.id}}&name={{item.name}}"><image src="{{item.img}}" mode=""/></navigator>
   </swiper-item>
 </swiper>
 <navigator url="/pages/xq/xq?id={{item.id}}&name={{item.name}}" class="v2" wx:for="{{cyh1}}" wx:key="id">

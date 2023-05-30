@@ -4,7 +4,8 @@
     "pages/sixiang/sixiang",
     "pages/wode/wode",
     "pages/xq/xq",
-    "pages/sp/sp"
+    "pages/sp/sp",
+    "pages/lb/lb"
   ],
   "window":{
     "backgroundTextStyle":"light",

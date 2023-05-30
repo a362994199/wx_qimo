@@ -3,7 +3,7 @@
   width: 100%;
   color: #fff;
   text-align: center;
-  border: solid 1px #ff0;
+  /* border: solid 1px #ff0; */
 }
 .t1 .t11{
   display: inline-block;

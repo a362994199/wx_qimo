@@ -16,7 +16,7 @@ Page({
       title: '数据加载中 '
     });
     wx.request({
-      url: 'http://150.158.174.124/api/sp.php',
+      url: 'https://www.cyh.plus/api/sp.php',
       method: 'post',
       success: (res)=>{
          console.log(res.data);

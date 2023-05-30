@@ -5,5 +5,6 @@
 <view class="v13"> {{item.text}}</view>
 <view class="v14"> {{item.time}}</view>
 <dianzan />
+<pinlun />
 </view>
 

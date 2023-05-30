@@ -10,7 +10,7 @@ Page({
   },
   cyhsp(){
     wx.request({
-      url: 'http://150.158.174.124/api/sp1.php',
+      url: 'https://www.cyh.plus/api/sp1.php',
       method: 'get',
       data:{
         type:this.data.query.id

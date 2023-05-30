@@ -1,0 +1,13 @@
+<!--components/pinlun/pinlun.wxml-->
+<view class="p">
+  <view class="p1">
+    <view class="p11"> </view>
+    <text>观点</text>
+  </view>
+  <view class="p2" wx:for="{{cyh}}" wx:key="id">
+  <view class="p21"><image src="{{item.img}}" mode=""/></view>
+  <view class="p22">{{item.name}}</view>
+  <view class="p23">{{item.pin}}</view>
+  <view class="p24">{{item.time}}</view>
+  </view>
+</view>

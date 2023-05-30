@@ -16,7 +16,7 @@ Page({
   },
   cyhwz(){
     wx.request({
-      url: 'http://150.158.174.124/api/sql_api1.php',
+      url: 'https://www.cyh.plus/api/sql_api1.php',
       data:{
         type: this.data.query.id,
       },

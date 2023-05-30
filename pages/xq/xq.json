@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "dianzan":"../../components/dianzan/dianzan"
+    "dianzan":"../../components/dianzan/dianzan",
+    "pinlun":"../../components/pinlun/pinlun"
   }
 }

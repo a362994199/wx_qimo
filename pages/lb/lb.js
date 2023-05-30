@@ -23,7 +23,7 @@ Page({
       title: '数据加载中 '
     });
     wx.request({
-      url: 'http://150.158.174.124/api/sql_api1.php',
+      url: 'https://www.cyh.plus/api/sql_api1.php',
       method: 'get',
       data:{
         type:j*1

@@ -11,7 +11,7 @@ Page({
   },
   cyhlb(){
     wx.request({
-      url: 'http://150.158.174.124/api',
+      url: 'https://www.cyh.plus/api',
       method: 'post',
       success: (res)=>{
          console.log(res.data.data);
@@ -29,7 +29,7 @@ Page({
       title: '数据加载中 '
     });
     wx.request({
-      url: 'http://150.158.174.124/api/sql_api.php',
+      url: 'https://www.cyh.plus/api/sql_api.php',
       method: 'post',
       success: (res)=>{
          console.log(res.data);

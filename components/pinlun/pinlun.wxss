@@ -1,0 +1,75 @@
+/* components/pinlun/pinlun.wxss */
+.p{
+  width: 100%;
+}
+.p .p1{
+  width: 90%;
+  height: 30px;
+  margin: 5%;
+  border-bottom: solid 1px rgb(219, 186, 95);
+}
+.p .p1 .p11{
+  width: 2%;
+  height: 25px;
+  float: left;
+  background: #f00;
+}
+.p .p1 text{
+  float: left;
+  position: relative;
+  top: -12px;
+  line-height: 30px;
+  margin: 10px;
+}
+.p2{
+  width: 90%;
+  height: 90px;
+  /* margin: 5%; */
+  border-bottom: solid 1px rgb(247, 236, 142);
+  border-bottom: rgb(233, 205, 205) 1px solid;
+}
+.p2 .p21{
+  width: 50px;
+  height: 50px;
+  margin: 5%;
+  /* border: solid rgb(16, 128, 26) 1px;  */
+}
+.p2 .p21 image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.p2 .p22{
+  height: 20px;
+  position: relative;
+  top: -70px;
+  left: 70px;
+  margin-left: 5%;
+  font-size: 18px;
+  font-family: '楷体';
+  font-weight: 800;
+  color: rgb(219, 152, 8);
+  /* border: solid rgb(16, 128, 26) 1px;  */
+}
+.p2 .p23{
+  width: 65%;
+  /* height: 20px; */
+  position: relative;
+  top: -65px;
+  left: 70px;
+  margin-left: 5%;
+  /* border: solid rgb(16, 128, 26) 1px;  */
+}
+.p2 .p24{
+  width: 65%;
+  /* height: 20px; */
+  position: relative;
+  top: -55px;
+  left: 70px;
+  margin-left: 5%;
+  font-size: 13px;
+  font-family: '楷体';
+  color: rgb(148, 96, 96);
+  /* border: solid rgb(16, 128, 26) 1px;  */
+}
+

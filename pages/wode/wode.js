@@ -7,12 +7,84 @@ Page({
   data: {
 
   },
+  cyh(){
+    wx.request({
+      url: 'https://www.cyh.plus/api/wd.php',
+      method: 'get',
+      data:{
+        type1:1,
+        type2:3
+      },
+      success: (res)=>{
+         console.log(res.data);
+        this.setData({
+          cyh1: res.data
+        })
+      }
+    }),
 
+    wx.request({
+      url: 'https://www.cyh.plus/api/wd.php',
+      method: 'get',
+      data:{
+        type1:4,
+        type2:6
+      },
+      success: (res)=>{
+         console.log(res.data);
+        this.setData({
+          cyh2: res.data
+        })
+      }
+    }),
+    wx.request({
+      url: 'https://www.cyh.plus/api/wd.php',
+      method: 'get',
+      data:{
+        type1:7,
+        type2:15
+      },
+      success: (res)=>{
+         console.log(res.data);
+        this.setData({
+          cyh3: res.data
+        })
+      }
+    }),
+    wx.request({
+      url: 'https://www.cyh.plus/api/wd.php',
+      method: 'get',
+      data:{
+        type1:16,
+        type2:19
+      },
+      success: (res)=>{
+         console.log(res.data);
+        this.setData({
+          cyh4: res.data
+        })
+      }
+    }),
+    wx.request({
+      url: 'https://www.cyh.plus/api/wd.php',
+      method: 'get',
+      data:{
+        type1:20,
+        type2:23
+      },
+      success: (res)=>{
+         console.log(res.data);
+        this.setData({
+          cyh5: res.data
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-
+    this.cyh()
   },
 
   /**

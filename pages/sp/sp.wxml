@@ -5,4 +5,5 @@
 <view class="v12">来源：{{item.ly}}</view>
 <view class="v12">时间： {{item.time}}</view>
 <dianzan />
+<pinlun />
 </view>

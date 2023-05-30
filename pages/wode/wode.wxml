@@ -15,7 +15,7 @@
   </view>
   <view class="v212" wx:for="{{cyh1}}" wx:key="id">
     <view class="v2121">
-      <image src="{{item.url}}" mode=""/>
+      <navigator url="/pages/xx/xx"><image src="{{item.url}}" mode=""/></navigator>
     </view>
     <text>{{item.name}}</text>
   </view>
@@ -30,10 +30,10 @@
 
   <view class="v22">
   <view class="v221">
-    强国城<text>打开  ></text>
+    <navigator url="/pages/xx/xx">强国城<text>打开  ></text></navigator>
   </view>
   <view class="v222" wx:for="{{cyh2}}" wx:key="id">
-    <image src="{{item.url}}" mode=""/>
+    <navigator url="/pages/xx/xx"><image src="{{item.url}}" mode=""/></navigator>
     <text>{{item.name}}</text>
   </view>
   </view>
@@ -44,11 +44,11 @@
 
   <view class="v23">
     <view class="v231">
-    强国服务<text>打开  ></text>
+    <navigator url="/pages/xx/xx">强国服务<text>打开  ></text></navigator>
   </view>
   <view class="v232" wx:for="{{cyh3}}" wx:key="id">
     <view class="233">
-      <image src="{{item.url}}" mode=""/>
+      <navigator url="/pages/xx/xx"><image src="{{item.url}}" mode=""/></navigator>
     </view>
     <text>{{item.name}}</text>
   </view>
@@ -58,11 +58,11 @@
 
   <view class="v24">
   <view class="v241">
-    强国医生<text>打开  ></text>
+    <navigator url="/pages/xx/xx">强国医生<text>打开  ></text></navigator>
   </view>
   <view class="v242" wx:for="{{cyh4}}" wx:key="id">
     <view class="v2421">
-      <image src="{{item.url}}" mode=""/>
+      <navigator url="/pages/xx/xx"><image src="{{item.url}}" mode=""/></navigator>
     </view>
     <text>{{item.name}}</text>
   </view>
@@ -71,10 +71,10 @@
 
   <view class="v25">
   <view class="v251">
-    帮助与反馈<text>打开  ></text>
+    <navigator url="/pages/xx/xx"> 帮助与反馈<text>打开  ></text></navigator>
   </view>
   <view class="v252" wx:for="{{cyh5}}" wx:key="id">
-    <view class="v2521"><image src="{{item.url}}" mode=""/></view>
+    <view class="v2521"><navigator url="/pages/xx/xx"><image src="{{item.url}}" mode=""/></navigator></view>
     <text>{{item.name}}</text>
   </view>
   </view>

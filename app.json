@@ -1,19 +1,20 @@
 {
   "pages":[
+    
     "pages/index/index",
     "pages/sixiang/sixiang",
     "pages/wode/wode",
     "pages/xq/xq",
     "pages/sp/sp",
+    "pages/xx/xx",
     "pages/lb/lb"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "海盗船长",
-    "navigationBarTextStyle":"black",
-    "enablePullDownRefresh": true,
-    "backgroundColor": "#e0dede"
+    "navigationBarTextStyle":"black"
+    
   },
   "tabBar": {
     "list": [{

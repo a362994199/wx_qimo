@@ -1,0 +1,13 @@
+<!--pages/xx/xx.wxml-->
+<view class="x">
+  <view class="x1">
+    <image class="img1" src="https://www.cyh.plus/api/img/logo1.png" mode=""/>
+    <image class="img2" src="https://www.cyh.plus/api/img/logo2.png" mode=""/>
+  </view>
+  <view class="x2">
+      <image class="img3" src="https://www.cyh.plus/api/img/dq.png" mode=""/>
+      <image class="img4" src="https://www.cyh.plus/api/img/logo4.png" mode=""/>
+      <image class="img5" src="https://www.cyh.plus/api/img/logo5.png" mode=""/>
+      <view>扫二维码下载学习强国APP，体验完整功能</view>
+  </view>
+</view>

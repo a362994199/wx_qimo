@@ -7,6 +7,18 @@ Page({
   data: {
 
   },
+  getInfo(){
+    wx.getUserProfile({
+      desc: '用于获取用户头像',
+      success: (res)=>{
+        console.log(res);
+        this.setData({
+          userInfo: res.userInfo
+        })
+      }
+    })
+  },
+
   cyh(){
     wx.request({
       url: 'https://www.cyh.plus/api/wd.php',

@@ -1,10 +1,13 @@
 <!--pages/wode/wode.wxml-->
 <view class="v1">
-<view class="v11">
+<view class="v11" bindtap="getInfo">
+  <image src="{{userInfo.avatarUrl}}" mode=""/>
 </view>
 <view class="v12">
+  {{userInfo.nickName}}
 </view>
 <view class="v13">
+段位：十年磨剑
 </view>
 <wode_table />
 </view>

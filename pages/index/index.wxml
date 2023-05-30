@@ -1,4 +1,4 @@
-<swiper indicator-dots circular class="v1">
+<swiper indicator-dots circular autoplay class="v1">
   <swiper-item wx:for="{{cyh}}" wx:key="id">
     <navigator url="/pages/lb/lb?id={{item.id}}&name={{item.name}}"><image src="{{item.img}}" mode=""/></navigator>
   </swiper-item>

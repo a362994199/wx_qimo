@@ -3,7 +3,7 @@
 <view class="v11"> {{item.name}}</view>
 <view class="v12">来源：{{item.zz}}</view>
 <view class="v13"> {{item.text}}</view>
-<view class="v14"> {{item.time}}</view>
+<view class="v14"> 时间：{{item.time}}</view>
 <dianzan />
 <pinlun />
 </view>

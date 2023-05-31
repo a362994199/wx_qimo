@@ -125,7 +125,7 @@
 
 .v23{
   width: 94%;
-  height: 250px;
+  height: 265px;
   position: relative;
   top: -60px;
   margin: 3%;

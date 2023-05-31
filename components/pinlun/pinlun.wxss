@@ -23,8 +23,8 @@
 }
 .p2{
   width: 90%;
-  height: 90px;
-  /* margin: 5%; */
+  height: 100px;
+  margin: 5%;
   border-bottom: solid 1px rgb(247, 236, 142);
   border-bottom: rgb(233, 205, 205) 1px solid;
 }
